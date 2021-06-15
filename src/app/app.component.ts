@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-open-app';
   welcome = "Angular Open Application"
+  counter = 0;
+  nameInput = "";
+
+  incrementHandler(){
+    this.counter +=1;
+  }
 }
